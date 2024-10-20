@@ -1,13 +1,16 @@
-
+body{
+    background-color: #202020;
+}
 .sidebar {
     width:20%;
     background-color: #2d2d2d;
     height: 100vh;
     padding: 20px;
     color: wheat;
-    position: fixed;
+    /* position: fixed; */
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    /* position: relative; */
 }
 
 .logo-img {
@@ -36,6 +39,11 @@
     display: flex;
 }
 
+.demodiv{
+    background-color: red;
+    width: 100%;
+}
+
 .sidebar ul li:hover {
     background-color: #575757;
 }
@@ -60,6 +68,10 @@
     display: flex;
     gap: 5px;
     justify-content: flex-end;
+    width: 100%;
+    margin: 0;
+    right: 0%;
+
 }
 
 #searchButton
