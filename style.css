@@ -1,0 +1,73 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+}
+.card{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 400px;
+    width : 400px;
+    border-radius: 50%;
+}
+.box
+{
+    /* border: 1px solid white; */
+    display: flex;
+    gap : 10px;
+    justify-content: space-between;
+    background-color: #151515;
+}
+
+#DisplayDiv
+{
+    /* border : 1px solid white; */
+    width : 30%;
+}
+
+#PowerDiv
+{
+    /* border : 1px solid white; */
+    width : 30%;
+    padding-left: ;
+}
+
+#Display
+{
+    width : 50%;
+    fill: white;
+    filter: brightness(200%);
+}
+
+#Power
+{
+    width : 50%;
+    fill: white;
+    filter: brightness(200%);
+}
+
+.box2
+{
+    background-color: #151515;
+    height : 50px;
+}
+
+.box3
+{
+    background-color: #151515;
+    height : 150px;
+}
+
+.time{
+    color: green;
+    text-align: center;
+}
+.timer{
+    text-align: center;
+}
+.end{
+    text-align: center;
+}
